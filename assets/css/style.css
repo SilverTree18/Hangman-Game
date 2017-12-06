@@ -1,0 +1,62 @@
+.jumbotron {
+	color: white;
+	background-image: url("../images/halftone-yellow.png");
+	text-align: center;
+	padding: 0px;
+	border-bottom: 10px solid #023852;
+}
+h1{
+	color: #023852;
+	font-size: 90px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+    text-shadow: 4px 4px white;
+}
+h3{
+	color: #047AB3;
+}
+h5{
+	font-size: 30px;
+	font-style: italic;
+}
+body{
+	background-image: url("../images/bodybackground.jpg");
+}
+
+#wordToGuess, #wrongLetters, #guessesLeft{
+	font-size: 50px;
+	font-color: #03A694;
+}
+.col-md-7 {
+	margin-left: 40px;
+	background-color: white;
+	padding: 20px;
+	border: 6px solid #023852;
+}
+.col-md-3{
+	margin-left: 10px;
+	background-color: white;
+	padding-top: 50px;
+	border-style: none;
+	border: 6px solid #023852;
+
+}
+.card-heading{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#winCounterHead, #winCounter {
+	text-align: center;
+	color: green;
+}
+#lossCounterHead, #lossCounter {
+	text-align: center;
+	color: red;
+}
+#winCounterHead, #lossCounterHead, h3{
+font-family: 'Shadows Into Light', cursive;
+}
+#lossCounter, #winCounter {
+	font-size: 50px;
+}
+ 
